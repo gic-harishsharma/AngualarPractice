@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Js/car.js"></script>
+</head>
+
+<body> 
+    <ul width = "500px">
+        <li> <a onclick="ClickCarName(this,'bentley')" class="active">bentley</a><input type="hidden" id="bentley"
+                value="0">
+        </li>
+        <li><a onclick="ClickCarName(this,'BMW')">BMW</a> <input type="hidden" id="BMW" value="0"></li>
+        <li><a onclick="ClickCarName(this,'Bugatti_Veyron')" class="">Bugatti_Veyron</a><input type="hidden" id="Bugatti_Veyron" value="0"></li>
+        <li><a onclick="ClickCarName(this,'DC_Avanti')" class="">DC_Avanti</a><input type="hidden" id="DC_Avanti"
+                value="0"></li>
+        <li><a onclick="ClickCarName(this,'Mercedes')" class="">Mercedes</a><input type="hidden" id="Mercedes" value="0"></li>
+    </ul>
+    <br>
+    <div class="cardiv" id="cars">
+        <img src="Images/bentley.jpg" onclick="RaiseCount('bentley')">
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Name Of The Car :</td>
+                <th id="Car"  >bentley</th>
+            </tr>
+        </table>
+
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>Number of Clicks:</td>
+                <th id="countr">0</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+</html>

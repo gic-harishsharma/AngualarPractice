@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a89a2;
+    width: 500px;
+    border-radius: 7px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #1a89a2;
+  }
+  
+  .active {
+    background-color:#07e8f3b5
+  }
+ .cardiv {
+    background-color:#e5e5f1;
+    width: 40%;
+    border-style: hidden;
+    border-radius: 4px;
+    height: 500px;
+  }
+  .cardiv img{
+    width: 100%;
+    height: 500px;
+  }
